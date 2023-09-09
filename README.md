@@ -22,8 +22,8 @@ This is a clone of the SIDCUP Family Golf website. It replicates the layout and 
 - Includes images, links, and styles consistent with the original site.
 
 ## Screenshots
-[![Watch the Video](https://example.com/video_thumbnail.png)](SFG-Website-Header-Video-0823.mp4)
-![Screenshot 2](https://github.com/ravin972/SidCupGolfClone/assets/59820924/a1f1d888-d12b-4aca-b35d-155dfc29abbb)
+[![Watch the Video](https://example.com/video_thumbnail.png)](https://github.com/ravin972/SidCupFamilyGolfClone/assets/59820924/06da1ee4-060f-4997-92a5-e7665eb8c035)
+![Screenshot 2](https://github.com/ravin972/SidCupFamilyGolfClone/assets/59820924/30b846a0-c830-46d8-8794-748156823f6e)
 
 ## Getting Started
 
