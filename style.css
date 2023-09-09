@@ -440,3 +440,243 @@ video {
   color: #000000 !important;
   padding: 10px;
 }
+/* MEDIA QUERIES */
+/* Responsive design for different screen sizes */
+@media (max-width: 768px) {
+  /* Adjust header padding for smaller screens */
+  #nav {
+    padding: 0 20px;
+  }
+
+  /* Adjust font sizes and margins for smaller screens */
+  #page1 h1 {
+    font-size: 60px;
+  }
+
+  #page1 h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  #page1 p {
+    font-size: 16px;
+    width: 100%;
+    line-height: 1.6em;
+  }
+
+  /* Hide the arrow-down on smaller screens */
+  #page1 #arrow-down {
+    display: none;
+  }
+
+  /* Adjust card sizes for smaller screens */
+  .cards {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjust padding for smaller screens */
+  #nav {
+    padding: 0 10px;
+  }
+
+  /* Adjust font sizes for even smaller screens */
+  #page1 h1 {
+    font-size: 50px;
+  }
+
+  #page1 h2 {
+    font-size: 18px;
+  }
+
+  #page1 p {
+    font-size: 14px;
+  }
+}
+
+/* Responsive design for different screen sizes */
+@media (max-width: 768px) {
+  /* Adjust video height for smaller screens */
+  video {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  /* Adjust main background styles for smaller screens */
+  #main {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Responsive design for different screen sizes */
+@media (max-width: 768px) {
+  /* Adjust font sizes for smaller screens */
+  #page1 h1 {
+    font-size: 70px;
+  }
+
+  #page1 h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  #page1 p {
+    font-size: 16px;
+    width: 70%;
+  }
+
+  /* Adjust the size of the arrow-down button */
+  #page1 #arrow-down {
+    height: 100px;
+    width: 100px;
+    left: -1%;
+  }
+
+  #page1 #arrow-down i {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for even smaller screens if needed */
+  #page1 h1 {
+    font-size: 50px;
+  }
+
+  #page1 h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+
+  #page1 p {
+    font-size: 14px;
+    width: 80%;
+  }
+
+  #page1 #arrow-down {
+    height: 80px;
+    width: 80px;
+    left: 0;
+  }
+
+  #page1 #arrow-down i {
+    font-size: 24px;
+  }
+}
+
+/* Responsive design for different screen sizes */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  #about-us {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #about-us-in h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  #about-us-in p {
+    font-size: 16px;
+  }
+
+  .cards {
+    width: 30%; /* Adjust card width for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for even smaller screens if needed */
+  #about-us {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #about-us-in h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  #about-us-in p {
+    font-size: 14px;
+  }
+
+  .cards {
+    width: 45%; /* Further adjust card width for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for even smaller screens if needed */
+  #page3 p {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
+  .elem {
+    width: 45%;
+  }
+
+  .elem h2 {
+    font-size: 10px;
+  }
+}
+
+/* Responsive design for different screen sizes */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  #footer {
+    height: 50vh;
+    padding: 0 50px;
+  }
+
+  #f1 img {
+    height: 50px;
+    min-width: 8rem;
+  }
+
+  #f2 h3 {
+    font-size: 15px;
+  }
+
+  #f3 h3 {
+    font-size: 15px;
+  }
+
+  #f4 h3 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for even smaller screens if needed */
+  #footer {
+    height: 30vh;
+    padding: 0 30px;
+    gap: 40px;
+  }
+
+  #f1 img {
+    height: 50px;
+    min-width: 6rem;
+  }
+
+  #f2 h3 {
+    font-size: 10px;
+  }
+
+  #f3 h3 {
+    font-size: 10px;
+  }
+
+  #f4 h3 {
+    font-size: 8px;
+  }
+}
